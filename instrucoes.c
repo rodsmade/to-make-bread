@@ -10,6 +10,8 @@ char **pegar_instrucoes_do_pao_australiano(void) {
     instrucoes[4] = "5 - Após enrolados, coloque-os em duas assadeiras untadas, cubra com um pano e deixe descansar por cerca de 1 hora.";
     instrucoes[5] = "6 - Pré-aqueça o forno a 180ºC (fogo baixo). Leve os pães crescidos para o forno e deixe assar até dourar (cerca de 35/40 minutos). Tire do forno e deixe esfriar por 15 minutos. Sirva com manteiga, margarina, requeijão cremoso, cream cheese, mel ou mesmo puro - mais saudável e menos calórico.";
     instrucoes[6] = "7 - Vale lembrar que a massa descansa uma hora antes de enrolar e mais uma hora depois de modelados os pãezinhos. Lembrando, ainda, que os pães crescem mais um pouco ao assarem.";
+
+    return (instrucoes);
 }
 
 char **pegar_instrucoes_do_pao_de_leite(void) {
@@ -32,4 +34,6 @@ char **pegar_instrucoes_do_pao_de_batata(void) {
     instrucoes[1] = "2 - Acrescente farinha e misture em uma vasilha até não grudar nas mãos.";
     instrucoes[2] = "3 - Faça pequenas bolinhas e deixe descansar por 30 minutos embaixo de uma lâmpada acesa.";
     instrucoes[3] = "4 - Leve ao forno médio por 30 a 40 minutos.";
+
+    return (instrucoes);
 }
